@@ -15,3 +15,9 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+-keep class kotlin.*
+-keep class rx.*
+
+-dontwarn org.w3c.dom.**
+-dontwarn sun.misc.Unsafe
